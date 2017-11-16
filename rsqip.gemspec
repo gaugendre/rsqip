@@ -20,9 +20,11 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/rsqip'
   s.license     = 'UNLICENSE'
 
+  s.metadata    = { 'source_code_uri' => 'https://github.com/gaugendre/rsqip' }
+
   s.add_dependency 'dimensions', '~> 1.3'
 
-  s.add_development_dependency 'rubocop', '~> 0'
-  s.add_development_dependency 'rake', '~> 11'
   s.add_development_dependency 'minitest', '~> 5'
+  s.add_development_dependency 'rake', '~> 11'
+  s.add_development_dependency 'rubocop', '~> 0'
 end
