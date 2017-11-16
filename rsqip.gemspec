@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'dimensions', '~> 1.3.0'
 
-  s.add_developement_dependency 'rubocop'
-  s.add_developement_dependency 'rake', '~> 12.3.0'
-  s.add_developement_dependency 'minitest', '~> 5.10.3'
+  s.add_development_dependency 'rubocop'
+  s.add_development_dependency 'rake', '~> 12.3.0'
+  s.add_development_dependency 'minitest', '~> 5.10.3'
 end
