@@ -16,6 +16,7 @@ Ruby port of npm's [sqip](https://github.com/technopagan/sqip) wrapping primitiv
 ```bash
 npm install -g svgo
 go get -u github.com/fogleman/primitive
+gem install rsqip
 
 ```
 
